@@ -3,7 +3,7 @@ console.log("Loaded");
 let displayWord = document.getElementById("displayWord");
 // console.log(displayWord.innerHTML)
 
-letterArr = ["Programmer. ", "Noob.", "Mastermind."];
+letterArr = ["the Developer. ", "the Mastermind.", "the Creator."];
 
 let i = 0;
 let j = 0;
@@ -44,7 +44,7 @@ function loop() {
    }
 
 
-   setTimeout(loop,150)
+   setTimeout(loop,100)
 }
 
 loop()
